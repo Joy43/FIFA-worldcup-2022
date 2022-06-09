@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* top bar section */
+.top-bar{
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+
+nav{
+    height: 44px;
+    padding: 42px 121px 121px 156px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .menu .all-menu{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+nav .menu .first-menu{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0px 18px 0px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav .menu{
+    width: 590px;
+    height: 24px;
+}
+.menu .icon{
+    color: #FFFFFF;
+    display: none;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.button .menu-button{
+    width: 130px;
+    height: 45px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button i, span{
+    color: #FFFFFF;
+}
+
+.home{
+    display: flex;
+}
+.home-info{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 156px;
+}
+.home-info .home-title{
+    width: 485px;
+    height: 230px;
+    font-size: 59px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    
+}
+
+.home-info .home-button{
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.home-button span{
+    margin-right: 8px;
+}
+
+.home-button i{
+
+    color: #FFFFFF;
+}
+
+.home-image{
+    width: 50%;
+}
+
+.home-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 70px;
+    transition: transform 1s ease-in-out;
+}
+
+.home-image:hover img{
+    transform: translateX(-50px);
+}
+
+/* top bar section end */
+
+/* club section */
+
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.cards{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.cards .card{
+    padding: 15px;
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card .inner-card{
+    width: 300px;
+height: 426px;
+}
+
+.inner-card img{
+    width: 300px;
+height: 256px;
+}
+
+.inner-card .card-details{
+    margin-top: 16px;
+    width: 300px;
+height: 154px;
+}
+
+.inner-card .card-title{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+
+}
+
+.inner-card .card-description p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+/* club section end */
+
+/* highlights section */
+
+.highlights{
+    margin-top: 165px;
+    display: flex;
+}
+.highlight{
+    width: 50%;
+    margin-top: 59px;
+    margin-right: 66px;
+    margin-left: 182px;
+    
+}
+.highlights-info{
+    width: 469px;
+    height: 309px;
+}
+
+.highlights-info .highlights-details{
+    width: 469px;
+    height: 241px;
+}
+
+.highlights-details .highlights-title{
+    width: 469px;
+    height: 120px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0A0826;
+    margin-bottom: 30px;
+}
+.highlights-details .highlights-description p{
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.highlights-button .watch-button{
+    margin-top: 24px;
+    width: 172px;
+    height: 44px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-button span{
+    margin-right: 8px;
+}
+.highlights-image{
+    width: 50%;
+    margin-right: 156px;
+}
+.highlight-image img{
+    width: 567px;
+height: 427px;
+}
+
+/* highlights section end */
+
+
+
+/* rank section */
+.ranking{
+    width: 100%;
+    height: auto;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.ranking-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.ranking-info .ranking-details{
+    width: 70%;
+    margin-top: 80px;
+    position: sticky;
+    top: 50px;
+    left: 0px;
+}
+.ranking-info .ranking-title{
+    font-size: 35px;
+    color: #0A0826;
+    font-weight: bold;
+}
+.ranking-description p{
+    color: #6C6C6C;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.ranking-men{
+    width: 35%;
+}
+.men-table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px ;
+}
+.men-table table{
+    width: 80%;
+}
+.men-table img{
+    width: 70px;
+}
+.men-table .map-info{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.men-table .map-info img{
+    margin-right: 20px;
+}
+
+.women-table{
+    margin-left: 50px;
+}
+
+thead tr th{
+    font-size: 14px;
+    font-weight: 200px;
+}
+tbody tr p{
+    font-size: 18px;
+}
+
+/* rank section end*/
+
+
+
+
+
+/* live section */
+
+.video{
+    margin-top: 165px;
+}
+.live{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.video-title{
+    margin-bottom: 50px;
+}
+.video-title p {
+     font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0A0826;
+}
+
+.league::before {
+    content: "Copa America";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0A0826;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Copa America";
+    }
+
+    50% {
+        content: "EURO";
+    }
+
+    75% {
+        content: "Copa America";
+    }
+}
+
+
+.big-live{
+   width:70%;
+    display: flex;
+   justify-content:flex-end; 
+   margin-right: 10px;
+}
+.big-live video{
+    width: 950px;
+}
+
+.small-live{
+    display: flex;
+    flex-direction: column;
+}
+.small-live video{
+    width: 300px;
+    margin-bottom: 2px;
+    
+}
+
+
+
+
+/* live section end */
+
+/* footer section */
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.footer-section {
+    width: 484px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+  }
+.footer-logo {
+    width: 484px;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+.footer-logo img {
+    width: 100%;
+  }
+.social-media-icons {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .icons{
+      width: 35px;
+      height: 35px;
+
+      padding: 7px 8px;
+      background-color: rgba(128, 128, 128, 0.13);
+      border-radius: 100px;
+      margin: 5px;
+  }
+.social-media-icons i {
+    color: #969bab;
+    font-size: 18px;
+    margin-right: 14px;
+    border-radius: 50px;
+  }
+
+.footer-section p {
+    font-size: 18px;
+  }
+  /* footer section end */
+
+
+  @media only screen and (max-width:688px) {
+
+
+       .top-bar{
+           width: 100%;
+           height: auto;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           
+       }
+       .home{
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+       }
+   
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    nav .menu a{
+        display: none;
+    }
+    nav .menu .icon{
+        display: block;
+       margin-left: 30px;
+    }
+    nav{
+        
+        padding: 0px;
+        margin-top: 33px;
+        margin-right: 21px;
+    }
+    .button .menu-button{
+             width: 80px;
+             height: 30px;
+         }
+    nav .button{
+        width: 89.98px;
+        height: 32.88px;
+        font-size: 11.956px;
+        margin-right: 21.02;
+        margin-right: 30px;
+    }
+
+    .home-info{
+        padding: 0px;
+    }
+   
+
+    .home-info .home-title{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 150px;
+    }
+    .home-info .home-button{
+        width: 168px;
+        height: 44px;
+        font-size: 16px;
+        margin-left: 40px;
+        margin-right: 150px;
+    }
+
+ .home-image img {
+      
+        width: 329px;
+        height: 259.17px;
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+.cards{ 
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        margin-top: 47px;
+        padding-left: 30px;
+        
+    }
+    .highlights{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+       
+       
+    }
+    .highlight{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 0px;
+    }
+     .highlights-details .highlights-title{
+         width: 70%;
+        font-size: 30px;
+        margin: 0px;
+        
+    }
+    .highlights-details .highlights-description p{
+        width: 80%;
+        font-size: 15px;
+    }
+    .highlights-details{
+        width: 100%;
+        
+    }
+
+    .highlights-info, .highlights-image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        margin-top: 50px;
+    
+    }
+      .highlight-image{
+          width: 100%;
+      }
+    .highlight-image img{
+        width: 340px;
+        height: 250px;
+    }
+     .ranking{
+         margin: 0px;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+        
+     }
+     .ranking-info{
+        
+         width: 100%;
+         margin-bottom:100px;
+     }
+
+
+
+     .ranking .ranking-men{
+         margin-left: 20px;
+         margin-bottom: 100px;
+     }
+      .men-table h2{
+          margin-left: 40px;
+      }
+      .men-table table th{
+          width: 100%;
+      }
+      .men-table table td{
+          margin-left: 30px;
+      }
+
+      .video{
+          margin: 0px;
+          width: 100%;
+      }
+      .video .video-title p{
+          width: 100%;
+          font-size: 20px;
+      }
+      .video .video-title .league::before{
+          font-size: 20px;
+      }
+
+      .live{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+
+       .big-live video{
+          width:100%;
+
+      } 
+      .small-live{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+          margin-top: 10px;
+      }
+       .small-live video{
+           width: 150px;
+       }
+
+    .footer-logo img{
+        
+        width: 300px;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+  }
